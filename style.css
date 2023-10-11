@@ -1,0 +1,28 @@
+.main-container {
+   margin: 0 auto;
+   padding: 60px;
+   width: 1000px;
+   height: 800px;
+   /* display: table; */
+}
+
+.new-line {
+   padding: 20px;
+   border: 1px solid rgb(214, 212, 212);
+   font-size: 18px;
+   /* width: 600px; */
+}
+
+.green {
+   color: green;
+}
+.red {
+   color: red;
+}
+.blue {
+   color: blue;
+}
+
+span {
+   color: red;
+}
