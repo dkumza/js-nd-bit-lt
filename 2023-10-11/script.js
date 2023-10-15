@@ -119,7 +119,9 @@ let zeroTo300 = (n) => {
    return saveNumbers;
 };
 
-zeroTo300(300);
+// console.log(saveNumbers);
+
+// zeroTo300(300);
 // console.log(saveNumbers);
 
 // function to generate 300 numbers from 0 to 300
@@ -130,15 +132,17 @@ zeroTo300(300);
 //    }
 //    return saveNumbers;
 // };
+zeroTo300(300);
+console.log(saveNumbers);
 
 // function to check number more then 275 and add span around number
 // let moreThen275 = (saveNumbers) => {
 //    let newValue = 0;
-//    console.log(saveNumbers);
+//    // console.log(saveNumbers);
 //    for (let key in saveNumbers) {
 //       if (saveNumbers[key] > 275) {
 //          console.log(saveNumbers[key]);
-//          saveNumbers[key] = `<span>${newValue}<span>`;
+//          // saveNumbers[key] = `<span>${newValue}<span>`;
 //          // letObjectToArray.replace(key, `<span>${key}<span>`);
 //       }
 //    }
@@ -191,9 +195,10 @@ let printToDOM = (noDots) => {
 };
 printToDOM(noDots);
 
-// function to search for all numbers more then 275
-
+//
 //  6
+//
+//
 
 let randNumbers = [];
 
@@ -208,17 +213,6 @@ let zeroToN = (m, n) => {
 };
 
 zeroToN(1, 3000);
-// console.log(randNumbers);
-
-// function to convert object to array and cut out " , " from array and replace with space = " "
-// toArray = (randNumbers) => {
-//    console.log(randNumbers);
-//    // convert object to array
-//    randNumbers = String(randNumbers);
-//    // cut out , from array and replace with space
-//    noDots = randNumbers.split(",").join(" ");
-//    return noDots;
-// };
 
 toArray(randNumbers);
 
